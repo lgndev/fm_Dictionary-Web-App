@@ -64,9 +64,10 @@ export const useDictionaryStore = create<DictionaryStoreState>()(
             {
               text: "",
               audio: "",
-            },
-            {
-              text: "",
+              license: {
+                name: "",
+                url: "",
+              },
             },
           ],
           origin: "",

@@ -5,9 +5,10 @@ export interface DictionaryModel {
     {
       text: string;
       audio: string;
-    },
-    {
-      text: string;
+      license?: {
+        name: string;
+        url: string;
+      };
     }
   ];
   origin: string;
